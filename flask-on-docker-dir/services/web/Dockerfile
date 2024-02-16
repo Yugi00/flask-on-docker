@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y netcat
 
 # install dependencies
 RUN pip install --upgrade pip
+RUN pip3 install --upgrade setuptools
 COPY ./requirements.txt /usr/src/app/requirements.txt
 RUN pip install -r requirements.txt
 

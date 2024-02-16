@@ -1,4 +1,4 @@
 # ignored files
 .env.prod
 .env.prod.db
-
+.env.dev
